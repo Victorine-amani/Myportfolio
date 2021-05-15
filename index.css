@@ -1,0 +1,278 @@
+        #only {
+            background-image: linear-gradient( rgba(199, 199, 199, 0.5), rgba(199, 199, 199, 0.5)), url("images/background.jpeg");
+            background-size: cover;
+            text-align: center;
+        }
+        
+        #blog {
+            background-color: rgba(199, 199, 199, 0.5);
+        }
+        
+        #faq {
+            background-color: rgba(199, 199, 199, 0.5);
+        }
+        
+        #name {
+            text-align: left;
+            margin-left: 100px;
+            opacity: 0.5;
+        }
+        
+        nav {
+            overflow: auto;
+            position: static;
+        }
+        
+        #nav-bar li {
+            cursor: pointer;
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding-left: 50px;
+            opacity: 0.4;
+            font-size: larger;
+            font-family: FreeMono, monospace;
+        }
+        
+        li a {
+            color: rgb(0, 0, 0);
+        }
+        
+        #nav-bar ul {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #nav-bar a:hover {
+            color: rgb(79, 140, 160);
+        }
+        
+        #nav-bar a {
+            text-decoration: none;
+        }
+        
+        .p-name {
+            margin: auto;
+        }
+        
+        #abouts {
+            background-color: rgb(232, 233, 219);
+            background-size: cover;
+            width: 1000px;
+            display: inline-block;
+            text-align: center;
+            opacity: 0.9;
+            align-content: baseline;
+            border-style: none;
+        }
+        
+        #meme {
+            display: contents;
+            width: 350px;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .photo {
+            width: 300px;
+            height: 300px;
+            width: auto;
+            height: max-content;
+            float: left;
+        }
+        
+        .text {
+            font-size: 50px;
+            color: black;
+            margin-top: 200px;
+            text-align: center;
+        }
+        
+        #meme2 {
+            display: contents;
+            text-align: right;
+        }
+        
+        footer {
+            text-align: center;
+            overflow: auto;
+            background-color: rgb(94, 94, 94);
+            font-family: Freemono, monospace;
+        }
+        
+        .Image {
+            block-size: 40px;
+            background-color: white;
+        }
+        
+        hr {
+            width: 500px;
+        }
+        
+        button {
+            background-color: black;
+            color: white;
+            border-left: none;
+            width: 50px;
+            height: 35px;
+        }
+        
+        input {
+            width: 30%;
+            height: 30px;
+            float: centre;
+            font-size: large;
+            font-family: Freemono, monospace;
+            float: left;
+        }
+        
+        #quiz {
+            font-family: Freemono, monospace;
+        }
+        
+        .quizes {
+            font-family: Freemono, monospace;
+            overflow: auto;
+            text-align: center;
+            width: 40%;
+            padding-left: 25%;
+        }
+        
+        #li {
+            text-align: center;
+            font-family: American Typewriter, serif;
+            font-size: larger;
+            text-decoration: solid black;
+        }
+        
+        #image {
+            text-align: center;
+        }
+        
+        #answer {
+            font-family: Freemono, monospace;
+        }
+        
+        .quizes ul {
+            text-align: center;
+        }
+        
+        i {
+            font-size: 0.5rem;
+            color: grey;
+        }
+        
+        #about {
+            text-align: center;
+            background-color: rgba(165, 165, 165, 0.5);
+        }
+        
+        #visible {
+            color: white;
+        }
+        
+        #main {
+            background-size: cover;
+            width: 900px;
+            display: inline-block;
+            text-align: left;
+            align-content: baseline;
+            padding-left: 3%;
+        }
+        
+        #trevs {
+            display: contents;
+            width: 50%;
+            margin: auto;
+            text-align: left;
+        }
+        
+        .photos {
+            width: 300px;
+            height: 300px;
+            float: left;
+        }
+        
+        #bio {
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            width: 74%;
+        }
+        
+        .me2 {
+            font-size: 20px;
+            text-align: center;
+            font-family: futura-pt;
+        }
+        
+        .me4 {
+            font-size: 20px;
+            color: black;
+            margin-top: 100px;
+            text-align: center;
+        }
+        
+        .me7 {
+            font-size: 20px;
+            color: black;
+            margin-top: 50px;
+            text-align: center;
+            border-left: 10px;
+        }
+        
+        #mains {
+            background-color: rgb(232, 233, 219);
+            width: 1000px;
+            display: inline-block;
+            text-align: center;
+            align-content: baseline;
+            opacity: 0.8;
+            border-style: groove;
+            border-radius: 20px;
+        }
+        
+        .photot {
+            width: 350px;
+            height: 500px;
+            float: left;
+        }
+        
+        #myForm {
+            font-family: futura-pt;
+            font-weight: 200;
+            font-size: 55px;
+            line-height: 55px;
+            color: rgb(138, 138, 104);
+            text-align: center;
+            margin-top: 15%;
+            opacity: 0.7;
+        }
+        
+        #landing {
+            background-image: url("images/Grey-Background.jpg");
+            background-size: cover;
+        }
+        
+        .btn {
+            text-align: center;
+            margin-left: 45%;
+            background-color: black;
+            font-family: futura-pt;
+            width: 100px;
+            height: 40px;
+            color: rgb(226, 226, 194);
+            font-size: 20px;
+            opacity: 0.7;
+        }
+        
+        .row:after {
+            content: "";
+            display: inline-block;
+            clear: both;
+        }
+        
+        .columnleft {
+            text-align: left;
+            width: 600px;
+        }
