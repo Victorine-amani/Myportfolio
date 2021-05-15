@@ -270,9 +270,11 @@
             content: "";
             display: inline-block;
             clear: both;
+            width:900px;
+            font-family:Freemono, monospace;
         }
         
         .columnleft {
             text-align: left;
-            width: 600px;
+     
         }
